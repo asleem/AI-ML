@@ -1,0 +1,15 @@
+### Python and Jupyter Setup Instructions Using Terminal
+
+Follow these steps to install Python and Jupyter Notebook using terminal commands:
+
+1. Open your terminal (Command Prompt on Windows, Terminal on macOS/Linux).
+2. Update the package index (for Ubuntu/Linux):
+   sudo apt update
+3. Install Python (if not already installed):
+   sudo apt install python3 python3-pip python3-dev
+4. Install Jupyter Notebook using pip:
+   pip install notebook
+5. After installation, start the Jupyter Notebook server by running:
+   jupyter notebook
+6. This command will open the Jupyter Notebook interface in your default web browser, typically at http://localhost:8888.
+
